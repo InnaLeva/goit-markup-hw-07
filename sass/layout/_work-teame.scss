@@ -1,0 +1,40 @@
+.employees {
+    flex-basis: calc((100% - 90px) / 4);
+
+    background: #ffffff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+
+    &:nth-child(3n) {
+        margin-right: 0;
+        }
+}
+
+.team-position {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.post {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    color: var(--secondary-text-color);
+    margin-top: 10px;
+    margin-bottom: 16px;
+}
+
+.teame-members {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.work-teame {
+    background: #f5f4fa;
+}

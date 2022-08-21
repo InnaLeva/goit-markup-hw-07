@@ -1,0 +1,53 @@
+.our-work {
+    padding-top: 0;
+}
+
+.img-work {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+    flex-basis: calc((100% - 60px) / 3);
+
+     &:nth-child(3n) {
+            margin-right: 0;
+        }
+}
+
+
+.desktop-app {
+    position: relative;
+}
+
+.mobile-app {
+    position: relative;
+}
+
+.desiner-solutions {
+    position: relative;
+}
+
+.application {
+    position: absolute;
+    display: block;
+    width: 370px;
+    height: 70px;
+    left: 0;
+    bottom: 0;
+
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #ffffff;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    background: rgba(47, 48, 58, 0.8);
+}
+
+.list-work {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}

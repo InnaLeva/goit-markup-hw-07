@@ -1,0 +1,37 @@
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h2,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+    font-family: var(--primary-font);
+    color: var(--primary-text-color);
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    background-color: var(--primary-background);
+}

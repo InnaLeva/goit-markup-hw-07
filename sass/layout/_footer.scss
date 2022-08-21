@@ -1,0 +1,100 @@
+.footer-container {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.footer-menu-contact:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.address {
+    font-style: normal;
+}
+
+.google-maps {
+    line-height: 1.71;
+    color: var(--tertary-text-color);
+}
+
+.page-footer {
+    background-color: var(--secondary-background);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.basement-form-distribution {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--tertary-text-color);
+    margin-bottom: 20px;
+}
+
+.basement-form-container {
+    display: flex;
+}
+
+.basement-form-input {
+    width: 358px;
+    height: 50px;
+    color: var(--tertary-text-color);
+    margin-right: 12px;
+    background-color: #2f303a;
+    padding-left: 16px;
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    transition: border-color 250ms var(--transition-function);
+
+    &:focus {
+        border-color: var(--accent-color);
+        outline: none;
+        }
+}
+
+
+
+.basement-form-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 00.06em;
+    color: var(--tertary-text-color);
+    background: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+    padding: 10px 29px;
+    transition: color 250ms var(--transition-function),
+        background-color 250ms var(--transition-function);
+
+        &:hover,
+        &:focus {
+            color: var(--accent-color);
+            background: #ffffff;
+            }
+}
+
+
+
+.basement-form-btn-icon {
+    fill: currentColor;
+    margin-left: 10px;
+    transition: fill 250ms var(--accent-color);
+
+    .basement-form-btn:hover &,
+    .basement-form-btn:focus & {
+        fill: var(--accent-color);
+        }
+}
+
