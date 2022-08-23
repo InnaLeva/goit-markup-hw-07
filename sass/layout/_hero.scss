@@ -12,7 +12,7 @@
     background-color: #c4c4c4;
 }
 
-.main-title {
+.hero__title {
     width: 696px;
     font-weight: 900;
     font-size: 44px;
@@ -26,10 +26,8 @@
     margin-right: auto;
 }
 
-.hero-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.hero__button {
+    @extend %align;
 }
 
 .modal-btn {

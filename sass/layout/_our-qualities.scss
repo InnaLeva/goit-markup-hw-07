@@ -20,9 +20,7 @@
 }
 
 .logo-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %align;
     width: 270px;
     height: 120px;
     background: #f5f4fa;
@@ -31,9 +29,7 @@
 }
 
 .logo-icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %align;
 }
 
 .description-quality {

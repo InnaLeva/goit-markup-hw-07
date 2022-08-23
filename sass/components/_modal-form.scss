@@ -49,9 +49,7 @@
 }
 
 .modal-form-check-desc {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %align;
 
     font-family: var(--primary-font);
     font-weight: 400;
@@ -145,10 +143,9 @@
 }
 
 .modal-form-submit {
-    display: flex;
+    @extend %align;
+    
     align-self: center;
-    justify-content: center;
-    align-items: center;
     text-align: center;
     font-family: var(--primary-font);
     font-weight: 700;

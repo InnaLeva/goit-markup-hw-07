@@ -24,9 +24,7 @@
 }
 
 .basement-form-distribution {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
+    @include font(14px, 700, 16px);
     text-transform: uppercase;
     color: var(--tertary-text-color);
     margin-bottom: 20px;
@@ -58,16 +56,13 @@
 
 
 .basement-form-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %align;
     width: 200px;
     height: 50px;
 
     font-family: var(--primary-font);
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
+    @include font(16px, 700, 30px);
+    
     letter-spacing: 00.06em;
     color: var(--tertary-text-color);
     background: var(--accent-color);
